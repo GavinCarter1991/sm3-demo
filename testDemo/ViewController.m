@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import <GMObjC/GMObjC.h>
+#import "SM3Encryptor.h"
 
 @interface ViewController ()
 
@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *str = @"Abc@1234";
-    NSString *pw = [GMSm3Utils hashWithText:str];
-    NSLog(@"%@", pw);
+    
+    NSString *hashStr = [SM3Encryptor hexStringWithInput:@"Abc@1234"];
+    NSLog(@"%@", hashStr);
 }
 
 @end

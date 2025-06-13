@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		079B446ECACBDA28E81A2A8B /* Pods_testDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E597322FC7956F2C77D0903B /* Pods_testDemo.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		563FAAC22DFAAAEA00F37416 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -44,9 +40,6 @@
 		563FAAA62DFAAAE800F37416 /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563FAAC12DFAAAEA00F37416 /* testDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		563FAACB2DFAAAEA00F37416 /* testDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62023631B319C17828F49E7C /* Pods-testDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.debug.xcconfig"; path = "Target Support Files/Pods-testDemo/Pods-testDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		7F4D28519B0A164B417812B7 /* Pods-testDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.release.xcconfig"; path = "Target Support Files/Pods-testDemo/Pods-testDemo.release.xcconfig"; sourceTree = "<group>"; };
-		E597322FC7956F2C77D0903B /* Pods_testDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -70,15 +63,11 @@
 		};
 		563FAAC42DFAAAEA00F37416 /* testDemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = testDemoTests;
 			sourceTree = "<group>";
 		};
 		563FAACE2DFAAAEA00F37416 /* testDemoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = testDemoUITests;
 			sourceTree = "<group>";
 		};
@@ -89,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079B446ECACBDA28E81A2A8B /* Pods_testDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,14 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40332B71281BA7581B91A791 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E597322FC7956F2C77D0903B /* Pods_testDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		563FAA9D2DFAAAE800F37416 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +105,6 @@
 				563FAAC42DFAAAEA00F37416 /* testDemoTests */,
 				563FAACE2DFAAAEA00F37416 /* testDemoUITests */,
 				563FAAA72DFAAAE800F37416 /* Products */,
-				859296F1827A29F15DBFBD42 /* Pods */,
-				40332B71281BA7581B91A791 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,15 +118,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		859296F1827A29F15DBFBD42 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				62023631B319C17828F49E7C /* Pods-testDemo.debug.xcconfig */,
-				7F4D28519B0A164B417812B7 /* Pods-testDemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +125,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 563FAAD42DFAAAEA00F37416 /* Build configuration list for PBXNativeTarget "testDemo" */;
 			buildPhases = (
-				F77B61FC47F7E42E6E1025C7 /* [CP] Check Pods Manifest.lock */,
 				563FAAA22DFAAAE800F37416 /* Sources */,
 				563FAAA32DFAAAE800F37416 /* Frameworks */,
 				563FAAA42DFAAAE800F37416 /* Resources */,
 				563FAAFC2DFAB78C00F37416 /* Embed Frameworks */,
-				B8D288C898773BD56FB3BE39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,48 +251,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		B8D288C898773BD56FB3BE39 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testDemo/Pods-testDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testDemo/Pods-testDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testDemo/Pods-testDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F77B61FC47F7E42E6E1025C7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		563FAAA22DFAAAE800F37416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -366,18 +291,17 @@
 /* Begin XCBuildConfiguration section */
 		563FAAD52DFAAAEA00F37416 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62023631B319C17828F49E7C /* Pods-testDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UY4649S83G;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/testDemo",
 				);
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -390,10 +314,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/testDemo/GmSSLGroup",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jfbm.JuFuBaoMer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,18 +325,17 @@
 		};
 		563FAAD62DFAAAEA00F37416 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F4D28519B0A164B417812B7 /* Pods-testDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UY4649S83G;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/testDemo",
 				);
+				GCC_INPUT_FILETYPE = sourcecode.c.objc;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -428,10 +348,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/testDemo/GmSSLGroup",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jfbm.JuFuBaoMer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
