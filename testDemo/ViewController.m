@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "SM3Encryptor.h"
 //#import "GMObjC.h"
 //#import "GMObjC/GMObjC.h"
 #import "GmSSLEncryptorSM3.h"
