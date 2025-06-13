@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		563FAAFC2DFAB78C00F37416 /* Embed Frameworks */ = {
+		56B6DC432DFBD00D0052CBC7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -53,12 +53,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		56B6DA7A2DFBBB530052CBC7 /* Exceptions for "testDemo" folder in "Embed Frameworks" phase from "testDemo" target */ = {
+		56B6DC442DFBD00D0052CBC7 /* Exceptions for "testDemo" folder in "Embed Frameworks" phase from "testDemo" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				GMObjC.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
 			};
-			buildPhase = 563FAAFC2DFAB78C00F37416 /* Embed Frameworks */;
+			buildPhase = 56B6DC432DFBD00D0052CBC7 /* Embed Frameworks */;
 			membershipExceptions = (
 				GMObjC.xcframework,
 			);
@@ -70,7 +70,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				563FAAD32DFAAAEA00F37416 /* Exceptions for "testDemo" folder in "testDemo" target */,
-				56B6DA7A2DFBBB530052CBC7 /* Exceptions for "testDemo" folder in "Embed Frameworks" phase from "testDemo" target */,
+				56B6DC442DFBD00D0052CBC7 /* Exceptions for "testDemo" folder in "Embed Frameworks" phase from "testDemo" target */,
 			);
 			path = testDemo;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 				563FAAA22DFAAAE800F37416 /* Sources */,
 				563FAAA32DFAAAE800F37416 /* Frameworks */,
 				563FAAA42DFAAAE800F37416 /* Resources */,
-				563FAAFC2DFAB78C00F37416 /* Embed Frameworks */,
+				56B6DC432DFBD00D0052CBC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
