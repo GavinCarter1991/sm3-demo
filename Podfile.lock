@@ -1,0 +1,20 @@
+PODS:
+  - GMObjC (4.0.3):
+    - GMOpenSSL (~> 3.1.2)
+  - GMOpenSSL (3.1.2)
+
+DEPENDENCIES:
+  - GMObjC (~> 4.0.3)
+
+SPEC REPOS:
+  trunk:
+    - GMObjC
+    - GMOpenSSL
+
+SPEC CHECKSUMS:
+  GMObjC: 7c4671eed727b18de85a15ef9e90b9be82fbe5c1
+  GMOpenSSL: 1307e0778146502299bc84d9a0a1b2f7789a1e0c
+
+PODFILE CHECKSUM: 169b4e4d29e990f96e3bc79ffb28f2d353164b45
+
+COCOAPODS: 1.16.2
