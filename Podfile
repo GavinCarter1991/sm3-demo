@@ -3,10 +3,11 @@
 
 target 'testDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
-  #use_frameworks!
+  use_frameworks!
 
   # Pods for testDemo
   
-   pod 'GMObjC', '~> 4.0.3'
+   pod 'GMDynamic', '~> 4.0.3'
    
 end
+
